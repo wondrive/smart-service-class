@@ -6,8 +6,9 @@
      - Integrated_gradients를 이용하여 exp3의 최종 산출물과 비교해보기  
 <br/>
 - MNIST 데이터셋이 단순하고 이미지 사이즈가 작아서(28x28) VGG, ResNet 등 역대 영상처리 SOTA모델에서 오히려 수렴이 늦고 정확도가 떨어지는 경향이 있었음.  
+- 다음은 VGG16에서 MNIST를 학습한 결과임
      <img width="30%" src="https://user-images.githubusercontent.com/11987128/236466456-c0bc31a9-c88c-4cfd-984d-abd39a274002.PNG"/>  
-- 따라서 5개 이하의 conv층을 가진 단순한 모델을 `common.py`에  실습해보았음
+- 따라서 5개 이하의 conv층을 가진 단순한 모델을 `common.py`에 구현하여 실습해보았음
 
 ### 1. VGG 블록 활용  
 - 참고 모델: VGG16  
