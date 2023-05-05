@@ -154,4 +154,4 @@ Integrated_gradients를 이용하여 성능이 가장 좋았던 VGG Block과 exp
 
 |exp 3|VGG Block|  
 |---|---|  
-|<img width="50%" src="https://user-images.githubusercontent.com/11987128/236466465-9a40497b-091e-4517-bddd-cfd5e2c2e353.PNG"/>|<img width="50%" src="https://user-images.githubusercontent.com/11987128/236466471-c16c4cfa-d9ae-493c-8e40-95dcbd12cc4f.png"/>|  
+|<img width="100%" src="https://user-images.githubusercontent.com/11987128/236466465-9a40497b-091e-4517-bddd-cfd5e2c2e353.PNG"/>|<img width="100%" src="https://user-images.githubusercontent.com/11987128/236466471-c16c4cfa-d9ae-493c-8e40-95dcbd12cc4f.png"/>|  
