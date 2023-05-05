@@ -5,10 +5,14 @@
      - 사용한 블록/모델의 관련 논문 서치 및 장/단점 기록  
      - Integrated_gradients를 이용하여 exp3의 최종 산출물과 비교해보기  
 <br/>
-- MNIST 데이터셋이 단순하고 이미지 사이즈가 작아서(28x28) VGG, ResNet 등 역대 영상처리 SOTA모델에서 오히려 수렴이 늦고 정확도가 떨어지는 경향이 있었음.  
-- 다음은 VGG16에서 MNIST를 학습한 결과임
+
+---  
+- VGG, ResNet등 CNN 기반 역대 SOTA 모델에서 MNIST 학습시 수렴이 늦고 정확도가 떨어지는 경향이 있었음. MNIST 이미지가 단순하고 사이즈가 작아서(28x28) 그런 것으로 생각됨.
+- 예: 다음은 VGG16에서 MNIST를 학습한 결과임  
      <img width="30%" src="https://user-images.githubusercontent.com/11987128/236466456-c0bc31a9-c88c-4cfd-984d-abd39a274002.PNG"/>  
-- 따라서 5개 이하의 conv층을 가진 단순한 모델을 `common.py`에 구현하여 실습해보았음
+- 따라서 5개 이하의 conv층을 가진 단순한 모델을 `common.py`에 구현한 것으로 실습하였음
+<br/>
+
 
 ### 1. VGG 블록 활용  
 - 참고 모델: VGG16  
@@ -31,6 +35,8 @@
           wandb:      loss 1.46958  
           wandb:  test_acc 0.9912  
           wandb: test_loss 1.47173  
+<br/>
+
 
 
 ### 2. BottleNeck 블록 활용   
@@ -53,6 +59,8 @@
      wandb:      loss 1.46998  
      wandb:  test_acc 0.9874  
      wandb: test_loss 1.47435  
+<br/>
+
 
 
 ### 3. Transformer 블록 활용  
@@ -81,6 +89,8 @@
      - 층이 깊을수록 장점이 극대화 되는 모델을 너무 얕은 층으로 테스트 한 것이 아쉬움
      - 한편으로는 훈련 속도가 느리고 연산량이 CNN보다 많아서 간단한 실습 활동에 활용하기에는 덜 매력적이었음
      - 현실세계의 이미지 데이터셋은 MNIST보다 복잡하고 사이즈도 크므로 어떨지 궁금함
+<br/>
+
 
 
 ### 4. CSP BottleNeck 블록 활용  
@@ -103,6 +113,8 @@
      wandb:      loss 1.47022
      wandb:  test_acc 0.987
      wandb: test_loss 1.47468
+<br/>
+
 
 
 ### 5. SPPF 블록 활용  
