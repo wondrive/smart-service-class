@@ -1,0 +1,50 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.6.5",
+    "heartbeatAt": "2023-05-05T10:36:09.069295",
+    "startedAt": "2023-05-05T10:36:08.087229",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "exp5_mnist_test.py",
+    "codePath": "week1_DL\\exp5_mnist_test.py",
+    "git": {
+        "remote": "https://github.com/wondrive/smart-service-class.git",
+        "commit": "c9daa3be5dc4a71b3be20caaa8f204c196e971c6"
+    },
+    "email": "jswfs1284@gmail.com",
+    "root": "C:/workspace_lecture/smart-service-class",
+    "host": "DESKTOP-S0O5LVG",
+    "username": "gachon",
+    "executable": "C:\\Users\\gachon\\anaconda3\\envs\\smart-service-week1\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3000.0,
+        "min": 0.0,
+        "max": 3000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3000.0,
+            "min": 0.0,
+            "max": 3000.0
+        }
+    ],
+    "disk": {
+        "total": 929.876033782959,
+        "used": 458.19310760498047
+    },
+    "gpu": "NVIDIA GeForce GTX 1050 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1050 Ti",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 31.942604064941406
+    }
+}

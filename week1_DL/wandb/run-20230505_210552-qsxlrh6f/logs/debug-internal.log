@@ -1,0 +1,189 @@
+2023-05-05 21:05:52,706 INFO    StreamThr :13844 [internal.py:wandb_internal():89] W&B internal server running at pid: 13844, started at: 2023-05-05 21:05:52.706809
+2023-05-05 21:05:52,709 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: status
+2023-05-05 21:05:52,718 INFO    WriterThread:13844 [datastore.py:open_for_write():85] open: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\run-qsxlrh6f.wandb
+2023-05-05 21:05:52,719 DEBUG   SenderThread:13844 [sender.py:send():375] send: header
+2023-05-05 21:05:52,784 DEBUG   SenderThread:13844 [sender.py:send():375] send: run
+2023-05-05 21:05:53,610 INFO    SenderThread:13844 [dir_watcher.py:__init__():219] watching files in: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files
+2023-05-05 21:05:53,611 INFO    SenderThread:13844 [sender.py:_start_run_threads():1127] run started: qsxlrh6f with start time 1683288352.712805
+2023-05-05 21:05:53,611 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: summary_record
+2023-05-05 21:05:53,611 INFO    SenderThread:13844 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-05 21:05:53,615 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: check_version
+2023-05-05 21:05:53,615 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: check_version
+2023-05-05 21:05:53,662 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: run_start
+2023-05-05 21:05:53,691 DEBUG   HandlerThread:13844 [system_info.py:__init__():31] System info init
+2023-05-05 21:05:53,691 DEBUG   HandlerThread:13844 [system_info.py:__init__():46] System info init done
+2023-05-05 21:05:53,691 INFO    HandlerThread:13844 [system_monitor.py:start():181] Starting system monitor
+2023-05-05 21:05:53,691 INFO    SystemMonitor:13844 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-05 21:05:53,692 INFO    HandlerThread:13844 [system_monitor.py:probe():201] Collecting system info
+2023-05-05 21:05:53,694 INFO    SystemMonitor:13844 [interfaces.py:start():190] Started cpu monitoring
+2023-05-05 21:05:53,695 INFO    SystemMonitor:13844 [interfaces.py:start():190] Started disk monitoring
+2023-05-05 21:05:53,695 INFO    SystemMonitor:13844 [interfaces.py:start():190] Started gpu monitoring
+2023-05-05 21:05:53,700 INFO    SystemMonitor:13844 [interfaces.py:start():190] Started memory monitoring
+2023-05-05 21:05:53,717 INFO    SystemMonitor:13844 [interfaces.py:start():190] Started network monitoring
+2023-05-05 21:05:53,734 DEBUG   HandlerThread:13844 [system_info.py:probe():195] Probing system
+2023-05-05 21:05:53,741 ERROR   gpu       :13844 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-05 21:05:53,741 ERROR   gpu       :13844 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-05 21:05:53,753 DEBUG   HandlerThread:13844 [system_info.py:_probe_git():180] Probing git
+2023-05-05 21:05:53,861 DEBUG   HandlerThread:13844 [system_info.py:_probe_git():188] Probing git done
+2023-05-05 21:05:53,861 DEBUG   HandlerThread:13844 [system_info.py:probe():240] Probing system done
+2023-05-05 21:05:53,861 DEBUG   HandlerThread:13844 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19041-SP0', 'python': '3.6.5', 'heartbeatAt': '2023-05-05T12:05:53.734691', 'startedAt': '2023-05-05T12:05:52.686808', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'exp5_mnist_test.py', 'codePath': 'week1_DL\\exp5_mnist_test.py', 'git': {'remote': 'https://github.com/wondrive/smart-service-class.git', 'commit': 'c9daa3be5dc4a71b3be20caaa8f204c196e971c6'}, 'email': 'jswfs1284@gmail.com', 'root': 'C:/workspace_lecture/smart-service-class', 'host': 'DESKTOP-S0O5LVG', 'username': 'gachon', 'executable': 'C:\\Users\\gachon\\anaconda3\\envs\\smart-service-week1\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3000.0, 'min': 0.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 3000.0, 'min': 0.0, 'max': 3000.0}], 'disk': {'total': 929.876033782959, 'used': 458.22383880615234}, 'gpu': 'NVIDIA GeForce GTX 1050 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1050 Ti', 'memory_total': 4294967296}], 'memory': {'total': 31.942604064941406}}
+2023-05-05 21:05:53,861 INFO    HandlerThread:13844 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-05 21:05:53,862 INFO    HandlerThread:13844 [system_monitor.py:probe():214] Publishing system info
+2023-05-05 21:05:53,862 DEBUG   HandlerThread:13844 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-05-05 21:05:53,862 DEBUG   HandlerThread:13844 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-05 21:05:53,862 DEBUG   HandlerThread:13844 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-05-05 21:05:54,622 INFO    Thread-16 :13844 [dir_watcher.py:_on_file_created():278] file/dir created: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\conda-environment.yaml
+2023-05-05 21:05:54,623 INFO    Thread-16 :13844 [dir_watcher.py:_on_file_created():278] file/dir created: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\requirements.txt
+2023-05-05 21:05:54,623 INFO    Thread-16 :13844 [dir_watcher.py:_on_file_created():278] file/dir created: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\wandb-summary.json
+2023-05-05 21:05:55,766 ERROR   gpu       :13844 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-05 21:05:55,766 ERROR   gpu       :13844 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-05 21:05:56,272 DEBUG   HandlerThread:13844 [system_info.py:_save_conda():86] Saving conda packages done
+2023-05-05 21:05:56,273 INFO    HandlerThread:13844 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-05 21:05:56,277 DEBUG   SenderThread:13844 [sender.py:send():375] send: files
+2023-05-05 21:05:56,278 INFO    SenderThread:13844 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-05 21:05:56,291 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-05 21:05:56,291 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: stop_status
+2023-05-05 21:05:56,513 DEBUG   SenderThread:13844 [sender.py:send():375] send: telemetry
+2023-05-05 21:05:56,513 DEBUG   SenderThread:13844 [sender.py:send():375] send: telemetry
+2023-05-05 21:05:56,631 INFO    Thread-16 :13844 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\conda-environment.yaml
+2023-05-05 21:05:56,632 INFO    Thread-16 :13844 [dir_watcher.py:_on_file_created():278] file/dir created: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\wandb-metadata.json
+2023-05-05 21:05:56,632 INFO    Thread-16 :13844 [dir_watcher.py:_on_file_created():278] file/dir created: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\output.log
+2023-05-05 21:05:56,919 INFO    wandb-upload_0:13844 [upload_job.py:push():137] Uploaded file C:\Users\gachon\AppData\Local\Temp\tmpjsrdpa5qwandb\sh5ckrce-wandb-metadata.json
+2023-05-05 21:05:57,791 ERROR   gpu       :13844 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-05 21:05:57,792 ERROR   gpu       :13844 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-05 21:05:58,162 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: status_report
+2023-05-05 21:05:58,515 DEBUG   SenderThread:13844 [sender.py:send():375] send: exit
+2023-05-05 21:05:58,515 INFO    SenderThread:13844 [sender.py:send_exit():598] handling exit code: 1
+2023-05-05 21:05:58,515 INFO    SenderThread:13844 [sender.py:send_exit():600] handling runtime: 4
+2023-05-05 21:05:58,517 INFO    SenderThread:13844 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-05 21:05:58,517 INFO    SenderThread:13844 [sender.py:send_exit():606] send defer
+2023-05-05 21:05:58,517 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: defer
+2023-05-05 21:05:58,517 INFO    HandlerThread:13844 [handler.py:handle_request_defer():170] handle defer: 0
+2023-05-05 21:05:58,518 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: defer
+2023-05-05 21:05:58,518 INFO    SenderThread:13844 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-05-05 21:05:58,518 INFO    SenderThread:13844 [sender.py:transition_state():626] send defer: 1
+2023-05-05 21:05:58,518 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: defer
+2023-05-05 21:05:58,518 INFO    HandlerThread:13844 [handler.py:handle_request_defer():170] handle defer: 1
+2023-05-05 21:05:58,518 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: defer
+2023-05-05 21:05:58,518 INFO    SenderThread:13844 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-05-05 21:05:58,519 INFO    SenderThread:13844 [sender.py:transition_state():626] send defer: 2
+2023-05-05 21:05:58,519 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: defer
+2023-05-05 21:05:58,519 INFO    HandlerThread:13844 [handler.py:handle_request_defer():170] handle defer: 2
+2023-05-05 21:05:58,519 INFO    HandlerThread:13844 [system_monitor.py:finish():190] Stopping system monitor
+2023-05-05 21:05:58,519 DEBUG   SystemMonitor:13844 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-05 21:05:58,519 DEBUG   SystemMonitor:13844 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-05 21:05:58,519 DEBUG   SystemMonitor:13844 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-05 21:05:58,525 INFO    HandlerThread:13844 [interfaces.py:finish():202] Joined cpu monitor
+2023-05-05 21:05:58,525 INFO    HandlerThread:13844 [interfaces.py:finish():202] Joined disk monitor
+2023-05-05 21:05:58,540 ERROR   gpu       :13844 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-05-05 21:05:58,541 INFO    HandlerThread:13844 [interfaces.py:finish():202] Joined gpu monitor
+2023-05-05 21:05:58,541 INFO    HandlerThread:13844 [interfaces.py:finish():202] Joined memory monitor
+2023-05-05 21:05:58,541 INFO    HandlerThread:13844 [interfaces.py:finish():202] Joined network monitor
+2023-05-05 21:05:58,542 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: defer
+2023-05-05 21:05:58,542 INFO    SenderThread:13844 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-05-05 21:05:58,542 INFO    SenderThread:13844 [sender.py:transition_state():626] send defer: 3
+2023-05-05 21:05:58,542 DEBUG   SenderThread:13844 [sender.py:send():375] send: stats
+2023-05-05 21:05:58,542 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: defer
+2023-05-05 21:05:58,542 INFO    HandlerThread:13844 [handler.py:handle_request_defer():170] handle defer: 3
+2023-05-05 21:05:58,543 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: defer
+2023-05-05 21:05:58,543 INFO    SenderThread:13844 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-05-05 21:05:58,543 INFO    SenderThread:13844 [sender.py:transition_state():626] send defer: 4
+2023-05-05 21:05:58,543 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: defer
+2023-05-05 21:05:58,543 INFO    HandlerThread:13844 [handler.py:handle_request_defer():170] handle defer: 4
+2023-05-05 21:05:58,543 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: defer
+2023-05-05 21:05:58,543 INFO    SenderThread:13844 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-05-05 21:05:58,544 INFO    SenderThread:13844 [sender.py:transition_state():626] send defer: 5
+2023-05-05 21:05:58,544 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: defer
+2023-05-05 21:05:58,544 INFO    HandlerThread:13844 [handler.py:handle_request_defer():170] handle defer: 5
+2023-05-05 21:05:58,545 DEBUG   SenderThread:13844 [sender.py:send():375] send: summary
+2023-05-05 21:05:58,545 INFO    SenderThread:13844 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-05 21:05:58,546 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: defer
+2023-05-05 21:05:58,546 INFO    SenderThread:13844 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-05-05 21:05:58,546 INFO    SenderThread:13844 [sender.py:transition_state():626] send defer: 6
+2023-05-05 21:05:58,546 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: defer
+2023-05-05 21:05:58,546 INFO    HandlerThread:13844 [handler.py:handle_request_defer():170] handle defer: 6
+2023-05-05 21:05:58,547 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: defer
+2023-05-05 21:05:58,547 INFO    SenderThread:13844 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-05-05 21:05:58,550 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: status_report
+2023-05-05 21:05:58,646 INFO    Thread-16 :13844 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\output.log
+2023-05-05 21:05:58,647 INFO    Thread-16 :13844 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\wandb-summary.json
+2023-05-05 21:05:58,813 INFO    SenderThread:13844 [sender.py:transition_state():626] send defer: 7
+2023-05-05 21:05:58,813 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: defer
+2023-05-05 21:05:58,813 INFO    HandlerThread:13844 [handler.py:handle_request_defer():170] handle defer: 7
+2023-05-05 21:05:58,813 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: defer
+2023-05-05 21:05:58,813 INFO    SenderThread:13844 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-05-05 21:05:59,555 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-05 21:05:59,660 INFO    Thread-16 :13844 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\config.yaml
+2023-05-05 21:06:00,674 INFO    Thread-16 :13844 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\output.log
+2023-05-05 21:06:02,181 INFO    SenderThread:13844 [sender.py:transition_state():626] send defer: 8
+2023-05-05 21:06:02,181 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: poll_exit
+2023-05-05 21:06:02,182 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: defer
+2023-05-05 21:06:02,182 INFO    HandlerThread:13844 [handler.py:handle_request_defer():170] handle defer: 8
+2023-05-05 21:06:02,182 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: defer
+2023-05-05 21:06:02,182 INFO    SenderThread:13844 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-05-05 21:06:02,194 INFO    SenderThread:13844 [sender.py:transition_state():626] send defer: 9
+2023-05-05 21:06:02,194 DEBUG   SenderThread:13844 [sender.py:send():375] send: artifact
+2023-05-05 21:06:02,196 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: defer
+2023-05-05 21:06:02,196 INFO    HandlerThread:13844 [handler.py:handle_request_defer():170] handle defer: 9
+2023-05-05 21:06:02,698 INFO    Thread-16 :13844 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\output.log
+2023-05-05 21:06:03,368 INFO    SenderThread:13844 [sender.py:send_artifact():1474] sent artifact job-https___github.com_wondrive_smart-service-class.git_week1_DL_exp5_mnist_test.py - {'id': 'QXJ0aWZhY3Q6NDQyNzg0MzA3', 'digest': 'dd2495567c38005faeedfb0a00a69f87', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_wondrive_smart-service-class.git_week1_DL_exp5_mnist_test.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_wondrive_smart-service-class.git_week1_DL_exp5_mnist_test.py', 'alias': 'v2'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY2Njg2NjQy', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDQzMTI2OTk5', 'versionIndex': 11}}, 'version': 'v2'}
+2023-05-05 21:06:03,368 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: defer
+2023-05-05 21:06:03,368 INFO    SenderThread:13844 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-05-05 21:06:03,368 INFO    SenderThread:13844 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-05 21:06:03,713 INFO    SenderThread:13844 [dir_watcher.py:finish():395] scan: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files
+2023-05-05 21:06:03,713 INFO    SenderThread:13844 [dir_watcher.py:finish():409] scan save: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\conda-environment.yaml conda-environment.yaml
+2023-05-05 21:06:03,713 INFO    SenderThread:13844 [dir_watcher.py:finish():409] scan save: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\config.yaml config.yaml
+2023-05-05 21:06:03,716 INFO    SenderThread:13844 [dir_watcher.py:finish():409] scan save: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\output.log output.log
+2023-05-05 21:06:03,717 INFO    SenderThread:13844 [dir_watcher.py:finish():409] scan save: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\requirements.txt requirements.txt
+2023-05-05 21:06:03,722 INFO    SenderThread:13844 [dir_watcher.py:finish():409] scan save: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\wandb-metadata.json wandb-metadata.json
+2023-05-05 21:06:03,722 INFO    SenderThread:13844 [dir_watcher.py:finish():409] scan save: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\wandb-summary.json wandb-summary.json
+2023-05-05 21:06:03,725 INFO    SenderThread:13844 [sender.py:transition_state():626] send defer: 10
+2023-05-05 21:06:03,725 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: defer
+2023-05-05 21:06:03,726 INFO    HandlerThread:13844 [handler.py:handle_request_defer():170] handle defer: 10
+2023-05-05 21:06:03,729 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: defer
+2023-05-05 21:06:03,729 INFO    SenderThread:13844 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-05-05 21:06:03,729 INFO    SenderThread:13844 [file_pusher.py:finish():168] shutting down file pusher
+2023-05-05 21:06:04,328 INFO    wandb-upload_0:13844 [upload_job.py:push():137] Uploaded file C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\conda-environment.yaml
+2023-05-05 21:06:04,349 INFO    wandb-upload_2:13844 [upload_job.py:push():137] Uploaded file C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\config.yaml
+2023-05-05 21:06:04,398 INFO    wandb-upload_3:13844 [upload_job.py:push():137] Uploaded file C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\output.log
+2023-05-05 21:06:04,402 INFO    wandb-upload_1:13844 [upload_job.py:push():137] Uploaded file C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\requirements.txt
+2023-05-05 21:06:04,410 INFO    wandb-upload_5:13844 [upload_job.py:push():137] Uploaded file C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\files\wandb-summary.json
+2023-05-05 21:06:04,607 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-05 21:06:04,621 INFO    Thread-15 :13844 [sender.py:transition_state():626] send defer: 11
+2023-05-05 21:06:04,622 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: defer
+2023-05-05 21:06:04,623 INFO    HandlerThread:13844 [handler.py:handle_request_defer():170] handle defer: 11
+2023-05-05 21:06:04,624 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: defer
+2023-05-05 21:06:04,624 INFO    SenderThread:13844 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-05-05 21:06:04,624 INFO    SenderThread:13844 [file_pusher.py:join():173] waiting for file pusher
+2023-05-05 21:06:04,624 INFO    SenderThread:13844 [sender.py:transition_state():626] send defer: 12
+2023-05-05 21:06:04,625 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: defer
+2023-05-05 21:06:04,625 INFO    HandlerThread:13844 [handler.py:handle_request_defer():170] handle defer: 12
+2023-05-05 21:06:04,626 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: defer
+2023-05-05 21:06:04,626 INFO    SenderThread:13844 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-05-05 21:06:04,872 INFO    SenderThread:13844 [sender.py:transition_state():626] send defer: 13
+2023-05-05 21:06:04,872 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: defer
+2023-05-05 21:06:04,872 INFO    HandlerThread:13844 [handler.py:handle_request_defer():170] handle defer: 13
+2023-05-05 21:06:04,872 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: defer
+2023-05-05 21:06:04,872 INFO    SenderThread:13844 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-05-05 21:06:04,873 INFO    SenderThread:13844 [sender.py:transition_state():626] send defer: 14
+2023-05-05 21:06:04,873 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: defer
+2023-05-05 21:06:04,873 INFO    HandlerThread:13844 [handler.py:handle_request_defer():170] handle defer: 14
+2023-05-05 21:06:04,873 DEBUG   SenderThread:13844 [sender.py:send():375] send: final
+2023-05-05 21:06:04,874 DEBUG   SenderThread:13844 [sender.py:send():375] send: footer
+2023-05-05 21:06:04,874 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: defer
+2023-05-05 21:06:04,874 INFO    SenderThread:13844 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-05-05 21:06:04,874 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-05 21:06:04,875 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: server_info
+2023-05-05 21:06:04,875 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: get_summary
+2023-05-05 21:06:04,875 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: sampled_history
+2023-05-05 21:06:04,875 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: poll_exit
+2023-05-05 21:06:04,875 DEBUG   SenderThread:13844 [sender.py:send_request():402] send_request: server_info
+2023-05-05 21:06:05,072 INFO    MainThread:13844 [wandb_run.py:_footer_history_summary_info():3476] rendering history
+2023-05-05 21:06:05,073 INFO    MainThread:13844 [wandb_run.py:_footer_history_summary_info():3508] rendering summary
+2023-05-05 21:06:05,073 INFO    MainThread:13844 [wandb_run.py:_footer_sync_info():3434] logging synced files
+2023-05-05 21:06:05,076 DEBUG   HandlerThread:13844 [handler.py:handle_request():144] handle_request: shutdown
+2023-05-05 21:06:05,076 INFO    HandlerThread:13844 [handler.py:finish():845] shutting down handler
+2023-05-05 21:06:05,880 INFO    WriterThread:13844 [datastore.py:close():298] close: C:\workspace_lecture\smart-service-class\week1_DL\wandb\run-20230505_210552-qsxlrh6f\run-qsxlrh6f.wandb
+2023-05-05 21:06:06,078 INFO    SenderThread:13844 [sender.py:finish():1550] shutting down sender
+2023-05-05 21:06:06,078 INFO    SenderThread:13844 [file_pusher.py:finish():168] shutting down file pusher
+2023-05-05 21:06:06,078 INFO    SenderThread:13844 [file_pusher.py:join():173] waiting for file pusher

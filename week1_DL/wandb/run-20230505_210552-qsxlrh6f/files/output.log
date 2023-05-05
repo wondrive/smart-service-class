@@ -1,0 +1,18 @@
+
+  0%|                                                                                                                                                                                                     | 0/600 [00:00<?, ?batch/s]
+torch.Size([100, 32, 28, 28])
+  0%|                                                                                                                                                                                                     | 0/600 [00:02<?, ?batch/s]
+Traceback (most recent call last):
+  File "exp5_mnist_test.py", line 137, in <module>
+    pred = model(x)
+  File "C:\Users\gachon\anaconda3\envs\smart-service-week1\lib\site-packages\torch\nn\modules\module.py", line 1120, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "C:\workspace_lecture\smart-service-class\week1_DL\common.py", line 395, in forward
+    x = self.fc_layer(x)
+  File "C:\Users\gachon\anaconda3\envs\smart-service-week1\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\gachon\anaconda3\envs\smart-service-week1\lib\site-packages\torch\nn\modules\linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "C:\Users\gachon\anaconda3\envs\smart-service-week1\lib\site-packages\torch\nn\functional.py", line 1848, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (100x25088 and 1568x10)

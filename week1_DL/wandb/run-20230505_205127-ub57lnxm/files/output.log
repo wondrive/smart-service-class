@@ -1,0 +1,181 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:32<00:00, 18.51batch/s, =TRAIN: EPOCH 0000/0010 | BATCH 0599/0600 | LOSS: 1.5230 | ACC 0.9508]
+Test0: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:02<00:00, 40.47batch/s, =TEST: EPOCH 0000/0010 | BATCH 0099/0100 | LOSS: 1.4848 | ACC 0.9789]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:30<00:00, 19.65batch/s, =TRAIN: EPOCH 0001/0010 | BATCH 0599/0600 | LOSS: 1.4821 | ACC 0.9814]
+Test1: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:02<00:00, 40.26batch/s, =TEST: EPOCH 0001/0010 | BATCH 0099/0100 | LOSS: 1.4786 | ACC 0.9841]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:30<00:00, 19.92batch/s, =TRAIN: EPOCH 0002/0010 | BATCH 0599/0600 | LOSS: 1.4772 | ACC 0.9853]
+
+Test2: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:02<00:00, 39.77batch/s, =TEST: EPOCH 0002/0010 | BATCH 0099/0100 | LOSS: 1.4818 | ACC 0.9817]
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:29<00:00, 20.03batch/s, =TRAIN: EPOCH 0003/0010 | BATCH 0599/0600 | LOSS: 1.4753 | ACC 0.9872]
+
+Test3: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:02<00:00, 40.26batch/s, =TEST: EPOCH 0003/0010 | BATCH 0099/0100 | LOSS: 1.4764 | ACC 0.9853]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:30<00:00, 19.97batch/s, =TRAIN: EPOCH 0004/0010 | BATCH 0599/0600 | LOSS: 1.4736 | ACC 0.9883]
+Test4: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:02<00:00, 40.18batch/s, =TEST: EPOCH 0004/0010 | BATCH 0099/0100 | LOSS: 1.4748 | ACC 0.9869]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:30<00:00, 19.85batch/s, =TRAIN: EPOCH 0005/0010 | BATCH 0599/0600 | LOSS: 1.4727 | ACC 0.9891]
+Test5: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:02<00:00, 39.08batch/s, =TEST: EPOCH 0005/0010 | BATCH 0099/0100 | LOSS: 1.4751 | ACC 0.9870]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:30<00:00, 19.94batch/s, =TRAIN: EPOCH 0006/0010 | BATCH 0599/0600 | LOSS: 1.4712 | ACC 0.9907]
+Test6: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:02<00:00, 38.84batch/s, =TEST: EPOCH 0006/0010 | BATCH 0099/0100 | LOSS: 1.4765 | ACC 0.9854]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:30<00:00, 19.88batch/s, =TRAIN: EPOCH 0007/0010 | BATCH 0599/0600 | LOSS: 1.4708 | ACC 0.9909]
+
+Test7: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:02<00:00, 39.22batch/s, =TEST: EPOCH 0007/0010 | BATCH 0099/0100 | LOSS: 1.4743 | ACC 0.9874]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 600/600 [00:30<00:00, 19.89batch/s, =TRAIN: EPOCH 0008/0010 | BATCH 0599/0600 | LOSS: 1.4702 | ACC 0.9912]
+Test8: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:02<00:00, 39.65batch/s, =TEST: EPOCH 0008/0010 | BATCH 0099/0100 | LOSS: 1.4747 | ACC 0.9870]
+  0%|                                                                                                                                                                                                     | 0/600 [00:01<?, ?batch/s]
+Traceback (most recent call last):
+  File "exp5_mnist_test.py", line 121, in <module>
+    attributions_ig = integrated_gradients.attribute(x, target=y, n_steps=50)
+  File "C:\Users\gachon\anaconda3\envs\smart-service-week1\lib\site-packages\captum\log\__init__.py", line 42, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\gachon\anaconda3\envs\smart-service-week1\lib\site-packages\captum\attr\_core\integrated_gradients.py", line 292, in attribute
+    method=method,
+  File "C:\Users\gachon\anaconda3\envs\smart-service-week1\lib\site-packages\captum\attr\_core\integrated_gradients.py", line 355, in _attribute
+    additional_forward_args=input_additional_args,
+  File "C:\Users\gachon\anaconda3\envs\smart-service-week1\lib\site-packages\captum\_utils\gradient.py", line 112, in compute_gradients
+    outputs = _run_forward(forward_fn, inputs, target_ind, additional_forward_args)
+  File "C:\Users\gachon\anaconda3\envs\smart-service-week1\lib\site-packages\captum\_utils\common.py", line 485, in _run_forward
+    else inputs
+  File "C:\Users\gachon\anaconda3\envs\smart-service-week1\lib\site-packages\torch\nn\modules\module.py", line 1120, in _call_impl
+    result = forward_call(*input, **kwargs)
+  File "C:\workspace_lecture\smart-service-class\week1_DL\common.py", line 367, in forward
+    x = self.conv2(x)
+  File "C:\Users\gachon\anaconda3\envs\smart-service-week1\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\workspace_lecture\smart-service-class\week1_DL\common.py", line 116, in forward
+    return self.cv4(self.act(self.bn(torch.cat((y1, y2), 1))))
+  File "C:\Users\gachon\anaconda3\envs\smart-service-week1\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\workspace_lecture\smart-service-class\week1_DL\common.py", line 32, in forward
+    return self.act(self.bn(self.conv(x)))
+  File "C:\Users\gachon\anaconda3\envs\smart-service-week1\lib\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\gachon\anaconda3\envs\smart-service-week1\lib\site-packages\torch\nn\modules\conv.py", line 446, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "C:\Users\gachon\anaconda3\envs\smart-service-week1\lib\site-packages\torch\nn\modules\conv.py", line 443, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: CUDA out of memory. Tried to allocate 240.00 MiB (GPU 0; 4.00 GiB total capacity; 3.32 GiB already allocated; 0 bytes free; 3.42 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
