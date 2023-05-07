@@ -6,8 +6,12 @@
 
 <br/>
 
-**1. 개념**
-<img width="60%" style="margin-left:auto; margin-right:auto; display:block;" src="https://upload.wikimedia.org/wikipedia/commons/1/11/Centralized_federated_learning_protocol.png">  
+**1. 개념**  
+<img width="60%" style="margin-left:auto; margin-right:auto; display:block;" src="https://upload.wikimedia.org/wikipedia/commons/1/11/Centralized_federated_learning_protocol.png"> 
+
+<br/>
+<br/>
+<br/>
 
 - 다수의 기기(클라이언트)의 로컬 모델에서 학습된 내용을 서버로 모아 글로벌 모델을 만드는 것  
 - 장점: 분산학습이 가능하면서 데이터 보호를 할 수 있음.  
@@ -33,7 +37,9 @@
 <img width="80%" style="margin-left:auto; margin-right:auto; display:block;" src="https://2603032841-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LkwjM9iFxyVX0PINZ87%2F-LrXYKQk6zb8DtDHQDWr%2F-LrXjxgPaO7YA_fdB4Uf%2FScreen%20Shot%202019-10-19%20at%202.41.08%20AM.png?alt=media&token=bc5fd8a8-7db2-416e-8203-c1833cf5439c">
 출처: Wei Yang Bryan Lim et al., Federated Learning in Mobile Edge Networks: A Comprehensive Survey, 2019, https://doi.org/10.48550/arXiv.1909.11875
 
-<br />
+<br/>
+<br/>
+<br/>
 
 **3. 주요 알고리즘**
 - FedAvg: 로컬 모델들의 가중치 평균을 구해 글로벌 모델의 가중치 설정  
@@ -58,11 +64,11 @@
 Flower framework를 사용한 FedProx 실습
 <br/>
 
-**1. 실습 코드**
-     - git clone --depth=1 https://github.com/adap/flower.git
-     - fed avg 실습 경로: `flower/baselines/flwr_baselines/publications/fedavg_mnist`
-     - fed prox 실습 경로: `flower/baselines/flwr_baselines/publications/fedprox_mnist`  
-
+**1. 실습 코드**  
+     - git clone --depth=1 https://github.com/adap/flower.git  
+     - fed avg 실습 경로: `flower/baselines/flwr_baselines/publications/fedavg_mnist`  
+     - fed prox 실습 경로: `flower/baselines/flwr_baselines/publications/fedprox_mnist`    
+  
 <br/>
 
 **2. fed prox 실습 이미지**
