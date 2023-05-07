@@ -1,8 +1,8 @@
 # Week 2. 연합학습 (Federated Learing)
 
----
+<br/>
 
-### 이론   
+## I. 이론   
 
 <br/>
 
@@ -54,7 +54,7 @@
 
 ---
 
-### 실습
+## II. 실습
 Flower framework를 사용한 FedProx 실습
 <br/>
 
