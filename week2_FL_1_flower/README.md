@@ -48,3 +48,29 @@
 - Client Selection/Incentive Mechanism: 전체 클라이언트 중 좋은 클라이언트만 활용하겠다  
 - Model Aggregation optimization: 글로벌 모델에 weight를 합칠 때 어떤 weight를 합칠지 (대표적 예: FedProx)
 - Personalization: 로컬 데이터를 어떻게 학습시킬지 연구하는 분야
+
+<br/>
+<br/>
+
+---
+
+### 실습
+Flower framework를 사용한 FedProx 실습
+<br/>
+
+**1. 실습 코드**
+     - git clone --depth=1 https://github.com/adap/flower.git
+     - fed avg 실습 경로: `flower/baselines/flwr_baselines/publications/fedavg_mnist`
+     - fed prox 실습 경로: `flower/baselines/flwr_baselines/publications/fedprox_mnist`  
+
+<br/>
+
+**2. fed prox 실습 이미지**
+
+- 주요 하이퍼파라미터: straggler(γ), mu(μ)
+<img src="https://user-images.githubusercontent.com/11987128/236694480-60d087ca-64ef-4bef-8f89-1d0dacdfae9c.png">
+<img src="https://user-images.githubusercontent.com/11987128/236694500-9a1a511c-8ad5-4aa8-999e-8e1b6c312101.png">
+
+- 결과
+<img src="https://user-images.githubusercontent.com/11987128/236694512-c124b0d2-7b83-4fe1-b787-d90137bf9349.png">
+
