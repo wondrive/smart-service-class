@@ -1,0 +1,85 @@
+{
+     "abi": [
+        {
+             "inputs": [
+                  {
+                       "internalType": "uint256",
+                       "name": "date",
+                       "type": "uint256"
+                  },
+                  {
+                       "internalType": "string",
+                       "name": "content",
+                       "type": "string"
+                  }
+             ],
+             "name": "addDiary",
+             "outputs": [],
+             "stateMutability": "nonpayable",
+             "type": "function"
+        },
+        {
+             "inputs": [],
+             "stateMutability": "nonpayable",
+             "type": "constructor"
+        },
+        {
+             "inputs": [
+                  {
+                       "internalType": "uint256",
+                       "name": "",
+                       "type": "uint256"
+                  }
+             ],
+             "name": "diary",
+             "outputs": [
+                  {
+                       "internalType": "string",
+                       "name": "",
+                       "type": "string"
+                  }
+             ],
+             "stateMutability": "view",
+             "type": "function"
+        },
+        {
+             "inputs": [
+                  {
+                       "internalType": "uint256",
+                       "name": "number",
+                       "type": "uint256"
+                  }
+             ],
+             "name": "getNumberlength",
+             "outputs": [
+                  {
+                       "internalType": "uint256",
+                       "name": "",
+                       "type": "uint256"
+                  }
+             ],
+             "stateMutability": "pure",
+             "type": "function"
+        },
+        {
+             "inputs": [
+                  {
+                       "internalType": "uint256",
+                       "name": "date",
+                       "type": "uint256"
+                  }
+             ],
+             "name": "readDiary",
+             "outputs": [
+                  {
+                       "internalType": "string",
+                       "name": "",
+                       "type": "string"
+                  }
+             ],
+             "stateMutability": "view",
+             "type": "function"
+        }
+   ],
+     "contract_address": "0x68dce810854eb4C6686443a3d42A5cC87F0b8135" // Diary.sol 파일의 설명 참고할것. 그리고 이 주석은 지우고 실행해야됨.
+}
