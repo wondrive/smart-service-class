@@ -1,4 +1,4 @@
-# Practicing Continual Learning on Gastric Cancer Deteciton
+# Practicing Continual Learning on Gastric Cancer Detection
 
 - method: EWC
 - goal: to mitigate the catastrophic forgetting in the class-incremental situation
